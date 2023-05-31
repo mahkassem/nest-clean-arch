@@ -1,0 +1,15 @@
+{
+    "record_not_found": "Record was not found",
+    "not_allowed_to_manage": "You are not allowed to manage this record",
+    "invalid_credentials": "Invalid credentials",
+    "invalid_code": "Invalid code",
+    "code_expired": "Code expired",
+    "must_be_string": "Must be string",
+    "file_not_found": "File not found",
+    "vehicle_already_registered": "Vehicle already registered",
+    "no_vehicle_found_please_create_it_first": "no vehicle found please create it first",
+    "registration_failed": "Registration failed",
+    "vehicle_update_failed": "Vehicle update failed",
+    "user_has_no_vehicle": "User has no vehicle",
+    "image_not_found": "Image not found"
+}

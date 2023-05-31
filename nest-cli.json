@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "compilerOptions": {
+    "deleteOutDir": true,
+    "assets": [{ "include": "i18n/**/*", "watchAssets": true }]
+  },
+  "schematics": {
+    "@nestjs/schematics:controller": {
+      "spec": false
+    },
+    "@nestjs/schematics:service": {
+      "spec": false
+    },
+    "@nestjs/schematics:module": {
+      "spec": false
+    },
+    "@nestjs/schematics:middleware": {
+      "spec": false
+    },
+    "@nestjs/schematics:filter": {
+      "spec": false
+    },
+    "@nestjs/schematics:guard": {
+      "spec": false
+    },
+    "@nestjs/schematics:interceptor": {
+      "spec": false
+    },
+    "@nestjs/schematics:resolver": {
+      "spec": false
+    },
+    "@nestjs/schematics:exception": {
+      "spec": false
+    },
+    "@nestjs/schematics:decorator": {
+      "spec": false
+    },
+    "@nestjs/schematics:pipe": {
+      "spec": false
+    }
+  }
+}

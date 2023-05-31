@@ -1,0 +1,6 @@
+{
+    "not_found": "Record was not found",
+    "is_string": "{field} must be string",
+    "latitude": "invalid value for latitude",
+    "longitude": "invalid value for longitude"
+}

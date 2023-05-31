@@ -1,0 +1,25 @@
+import * as joi from 'joi';
+
+export const configSchema = joi.object({
+  APP_NAME: joi.string().required(),
+  APP_ENV: joi.string().required().valid('development', 'production', 'local', 'test'),
+  APP_HOST: joi.string().required(),
+  APP_PORT: joi.number().required().default(3000),
+  APP_KEY: joi.string().required(),
+  MYSQL_HOST: joi.string().required().default('localhost'),
+  MYSQL_PORT: joi.number().required().default(3306),
+  MYSQL_DATABASE: joi.string().required(),
+  MYSQL_USERNAME: joi.string().required(),
+  MYSQL_PASSWORD: joi.string().required(),
+  MYSQL_SYNC: joi.boolean().required(),
+  MYSQL_AUTOLOAD: joi.boolean().required(),
+  JWT_EXPIRATION: joi.string().required().default('1d').regex(/^[0-9]+[smhdwMy]$/),
+  CACHE_TYPE: joi.string().valid('redis', 'memory', 'database'),
+  CACHE_DURATION: joi.number().default(60),
+  LOCAL_STORAGE_PATH: joi.string().required().default('storage'),
+  AWS_ACCESS_KEY_ID: joi.string().allow(''),
+  AWS_SECRET_ACCESS_KEY: joi.string().allow(''),
+  AWS_REGION: joi.string().allow('').valid('us-east-1', 'us-east-2', 'us-west-1', 'us-west-2', 'ca-central-1', 'eu-west-1', 'eu-west-2', 'eu-west-3', 'eu-central-1', 'ap-northeast-1', 'ap-northeast-2', 'ap-southeast-1', 'ap-southeast-2', 'ap-south-1', 'sa-east-1'),
+  AWS_BUCKET: joi.string().allow('').regex(/(?!(^xn--|.+-s3alias$))^[a-z0-9][a-z0-9-]{1,61}[a-z0-9]$/),
+  FIREBASE_SPECS_PATH: joi.string().required().default('firebase.json'),
+})

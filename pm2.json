@@ -1,0 +1,17 @@
+{
+  "apps": [
+      {
+          "name": "safari-api",
+          "script": "npm",
+          "args": [
+              "run",
+              "start:prod"
+          ],
+          "interpreter": "node",
+          "watch": false,
+          "error_file": "log/err.log",
+          "out_file": "log/out.log",
+          "log_file": "log/combined.log"
+      }
+  ]
+}

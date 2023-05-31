@@ -1,0 +1,15 @@
+{
+    "record_not_found": "لم يتم العثور على السجل",
+    "not_allowed_to_manage": "غير مسموح لك بإدارة هذا السجل",
+    "invalid_credentials": "بيانات الحساب غير صالحة",
+    "invalid_code": "الرمز غير صحيح",
+    "code_expired": "انتهت صلاحية الرمز",
+    "must_be_string": "يجب أن يكون الحقل نصي",
+    "file_not_found": "لم يتم العثور على الملف",
+    "vehicle_already_registered": "لديك مركبة مسجلة بالفعل",
+    "no_vehicle_found_please_create_it_first": "لليس لديك مركبة من فضلك قم بأنشائها اولا",
+    "registration_failed": "فشل تسجيل المركبة",
+    "vehicle_update_failed": "فشل تحديث المركبة",
+    "user_has_no_vehicle": "ليس لديك مركبة",
+    "image_not_found": "لم يتم العثور على الصورة"
+}
