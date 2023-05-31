@@ -1,7 +1,7 @@
 {
   "apps": [
       {
-          "name": "safari-api",
+          "name": "nest-api",
           "script": "npm",
           "args": [
               "run",
